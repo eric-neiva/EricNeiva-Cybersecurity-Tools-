@@ -6,7 +6,8 @@ This is a simple Python-based Network Intrusion Detection System (NIDS) that mon
 The system uses the scapy library for packet sniffing, allowing it to analyze packets and detect various types of network traffic.
 
 #Features
-Packet Sniffing: Monitors network traffic on a specified interface.
+Packet Sniffing
+Monitors network traffic on a specified interface.
 TCP and UDP Analysis: Identifies TCP and UDP packets, including source and destination ports.
 HTTP and HTTPS Detection: Flags potential HTTP and HTTPS traffic.
 External Agent Monitoring: Tracks external IP addresses communicating with the network.
