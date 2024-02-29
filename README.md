@@ -15,24 +15,25 @@ Python 3.x
 scapy library (pip install scapy)
 
 #How to Use
-Clone the repository:
+Clone the repository
 
 git clone https://github.com/yourusername/nids.git
 cd nids
 
-Install dependencies:
+Install dependencies
 
 pip install scapy
-Run the NIDS:
+
+Run the NIDS
 
 python nids.py
 Make sure to replace eth0 with your actual network interface.
 
-View the log:
+View the log
 
 The NIDS logs events to nids_log.txt for future analysis.
 
-#Customization Interface: 
+#Customization Interface
 
 Change the interface variable in the main function to match your network interface.
 Internal IP Ranges: Update the internal_ranges list in the internal_ips method to define your internal IP address range(s).
@@ -48,6 +49,7 @@ Enhance logging and reporting features.
 
 Contributors
 Eric Neiva
+
 License
 This project is licensed under the MIT License.
 
