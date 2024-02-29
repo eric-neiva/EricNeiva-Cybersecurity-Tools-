@@ -10,21 +10,17 @@ External Agent Monitoring: Tracks external IP addresses communicating with the n
 Prerequisites
 Python 3.x
 scapy library (pip install scapy)
+
 How to Use
 Clone the repository:
 
-bash
-
-git clone "https://github.com/yourusername/nids.git"
+git clone https://github.com/yourusername/nids.git
 cd nids
-Install dependencies:
 
-bash
+Install dependencies:
 
 pip install scapy
 Run the NIDS:
-
-bash
 
 python nids.py
 Make sure to replace eth0 with your actual network interface.
