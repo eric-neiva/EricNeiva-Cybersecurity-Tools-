@@ -7,6 +7,7 @@ The system uses the scapy library for packet sniffing, allowing it to analyze pa
 
 #Features
 Packet Sniffing
+
 Monitors network traffic on a specified interface.
 TCP and UDP Analysis: Identifies TCP and UDP packets, including source and destination ports.
 HTTP and HTTPS Detection: Flags potential HTTP and HTTPS traffic.
